@@ -1,6 +1,7 @@
 .header__nav {
   display: flex;
   overflow: hidden;
+  animation: fade-in-top 1.5s ease-in-out;
 }
 
 .header__logo {
@@ -63,4 +64,20 @@
   gap: 20px;
 
   position: relative;
+}
+
+@keyframes fade-in-top {
+  0%{
+      opacity: 0;
+      transform: translateY(.5rem);
+  }
+  33%{
+      opacity: 1;
+      transform: translateY(-1rem);
+     
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0);
+  }
 }
