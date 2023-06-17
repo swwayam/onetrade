@@ -37,7 +37,6 @@
 .trending-drinks {
   width: 100%;
   min-height: 640px;
-
   display: flex;
   flex-direction: row;
 }
@@ -105,8 +104,8 @@
 
 
 .trending__image img {
-  width: 500px;
-  height: 260px;
+  width: 256px;
+  height: 160px;
   object-fit: contain;
 }
 
